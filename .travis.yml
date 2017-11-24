@@ -4,7 +4,8 @@ rvm:
 - 2.2.2
 
 install: gem install jekyll jekyll-feed jekyll-paginate jekyll-sitemap jekyll-gist jemoji html-proofer minitest
-script: jekyll serve --baseurl "" --detach && htmlproofer ./_site --disable-external --empty-alt-ignore --href-ignore "#"
+script: jekyll serve --baseurl "" --detach
+script: htmlproofer ./_site --disable-external --empty-alt-ignore --href-ignore "#"
 
 env:
   global:
