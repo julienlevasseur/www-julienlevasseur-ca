@@ -4,7 +4,6 @@ title: Consul Templates
 description: "Lean configuration management with Consul Templates."
 tags: [consul template configuration_management]
 image:
-  background: triangular.png
 ---
 
 Here is a quick introduction to Consul Template and how they can be used to create a simple configuration management, especially with containers packaging.
